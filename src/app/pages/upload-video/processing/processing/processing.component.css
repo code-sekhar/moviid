@@ -362,6 +362,12 @@ li.active_border>.step_pointss>h4 {
 
 @media only screen and (max-width: 900px) and (min-width: 370px) {}
 
+@media only screen and (max-width: 9000px) and (min-width: 1000px) {
+    .page_heading {
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 790px) and (min-width: 300px) {
     .main_content_section {
         padding-top: 0;

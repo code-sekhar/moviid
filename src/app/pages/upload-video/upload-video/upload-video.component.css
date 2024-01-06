@@ -42,3 +42,9 @@
         padding-top: 0;
     }
 }
+
+@media only screen and (max-width: 9000px) and (min-width: 1000px) {
+    .page_heading {
+        text-align: center;
+    }
+}

@@ -341,7 +341,11 @@ span.label_select {
 
 @media only screen and (max-width: 1222px) and (min-width: 999px) {}
 
-@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+@media only screen and (max-width: 9000px) and (min-width: 1000px) {
+    .page_heading {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 1002px) and (min-width: 665px) {}
 
