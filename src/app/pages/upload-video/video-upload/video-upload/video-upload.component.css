@@ -277,6 +277,10 @@ input.videos_upload {
     margin-bottom: 45px;
 }
 
+.step_pointss {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1222px) and (min-width: 999px) {}
 
 @media only screen and (max-width: 1658px) and (min-width: 1000px) {}

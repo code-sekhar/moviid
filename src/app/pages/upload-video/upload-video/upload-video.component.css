@@ -37,6 +37,10 @@
     padding-top: 40px;
 }
 
+.step_pointss {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 790px) and (min-width: 300px) {
     .main_content_section {
         padding-top: 0;
