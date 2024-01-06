@@ -1,0 +1,44 @@
+.page_heading>h4 {
+    color: #3D42AA;
+    /* h3/bold/25px */
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 30px */
+    margin-bottom: 13px;
+}
+
+.page_heading>p {
+    color: #3D42AA;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 0;
+}
+
+.page_heading {}
+
+.page_heading {
+    padding-bottom: 38px;
+    border-bottom: 1px solid rgba(21, 23, 65, 0.24);
+}
+
+.inner_upload_video_page {
+    padding-top: 80px;
+}
+
+.main_content_section {
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    .main_content_section {
+        padding-top: 0;
+    }
+}

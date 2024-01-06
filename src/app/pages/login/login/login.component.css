@@ -1,0 +1,266 @@
+.login_page_areass {
+    background-image: url(../../../../assets/img/bg_log.png);
+    padding-top: 120px;
+    padding-bottom: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.label-before,
+.field input:focus+label::before,
+.field input:valid+label::before {
+    line-height: 20px;
+    font-size: 12px;
+    top: -10px;
+    background: #fff;
+    padding: 0 6px;
+    left: 9px;
+}
+
+.field {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.field label::before {
+    content: attr(title);
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    transition: 300ms all;
+    color: #3D42AA;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.field input {
+    width: 100%;
+    line-height: 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #222;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.field input:focus {
+    outline: 0;
+    border-color: blue;
+}
+
+.field input:valid+label::before {
+    content: attr(data-title);
+}
+
+.field input:focus+label::before {
+    color: #3D42AA;
+}
+
+
+/* social-btn */
+
+.inner_sign_in_form_box {
+    border-radius: 27px;
+    background: #FFFAFA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 50px 40px;
+}
+
+.login_header>h2 {
+    color: #3D42AA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.login_header {
+    margin-bottom: 30px;
+}
+
+.ss_btn {
+    display: flex;
+    flex-direction: column;
+}
+
+button.google_btn {
+    border-radius: 16px;
+    background: #3D42AA;
+    box-shadow: 8px 8px 4px -4px rgba(0, 0, 0, 0.30);
+    padding: 10px 60px;
+    line-height: 1;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+button.google_btn>span {
+    margin-right: 18px;
+}
+
+button.facbook_btn {
+    border-radius: 16px;
+    padding: 8px 60px;
+    line-height: 1;
+    border: none;
+    border: 2px solid rgba(61, 66, 170, 0.50);
+    background: #FFF;
+    box-shadow: 8px 8px 4px -4px rgba(0, 0, 0, 0.30);
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    /* margin-bottom: 25px; */
+}
+
+button.facbook_btn>span {
+    margin-right: 18px;
+}
+
+.or_options>h4 {
+    color: #3D42AA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.or_options {
+    padding: 25px 0px;
+}
+
+.field>input {
+    border-radius: 19px !important;
+    border: 2px solid #3D42AA !important;
+    background: #FFF;
+    box-shadow: 0px 0px 4px -5px rgba(0, 0, 0, 0.30) inset;
+    padding: 8px 20px !important;
+}
+
+button.custom_btns {
+    border-radius: 16px;
+    background: #3D42AA;
+    box-shadow: 0px 0px 4px -5px rgba(0, 0, 0, 0.30) inset;
+    padding: 23px 20px;
+    border: none;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.submit_btnss {
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 375px) and (min-width: 346px) {}
+
+@media only screen and (max-width: 544px) and (min-width: 375px) {}
+
+@media only screen and (max-width: 555px) and (min-width: 376px) {}
+
+@media only screen and (max-width: 768px) and (min-width: 544px) {}
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {
+    .inner_sign_in_form_box {
+        border-radius: 27px;
+        padding: 35px 20px;
+    }
+    button.google_btn,
+    button.facbook_btn {
+        padding: 10px 20px;
+        margin-bottom: 25px;
+    }
+    .login_header>h2 {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+    .or_options {
+        padding: 20px 0px;
+    }
+    .or_options>h4 {
+        font-size: 17px;
+    }
+}
+
+
+/* js_cont_justify */
+
+@media only screen and (max-width: 1366px) and (min-width: 993px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 826px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 370px) and (min-width: 320px) {}
+
+@media only screen and (max-width: 900px) and (min-width: 370px) {}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1382px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1480px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 4999px) and (min-width: 999px) {}
+
+@media only screen and (max-height: 4999px) and (min-height: 990px) {}

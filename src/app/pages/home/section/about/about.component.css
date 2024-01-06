@@ -1,0 +1,37 @@
+.about_sections {
+    padding: 120px 0px;
+    background-image: url(../../../../../assets/img/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full_abt_content>h2 {
+    color: #0F172A;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 105% */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.full_abt_content>p {
+    color: #313D44;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: unset;
+    /* 190% */
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {
+    .about_sections {
+        padding: 65px 0px;
+    }
+}
